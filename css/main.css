@@ -1,5 +1,4 @@
-/*CLASES REUTILIZABLES*/
-* {
+ {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -70,4 +69,152 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+body{
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+header{
+  width:100%;
+  position: fixed;
+  top: 0px;
+  background-color: white;
+  padding-bottom: 10px;
+  border: 2px solid black;
+}
+
+.logo{
+  float: right;
+  padding-right: 45px;
+}
+
+a{
+   font-size: 18px;
+}
+
+a:hover{
+  color: red;
+}
+
+#static{
+  margin-left: 160px; 
+  margin-top: 30px;
+}
+
+.title{
+  font-weight: 900;
+  margin-right: 40px;
+}
+
+#static .logo img{
+  width: 35%;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+
+#first{
+  width: 100%;
+  height: auto;
+  margin-top: 91px;
+  background-image: url(../assets/images/bg-home.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 65px;
+  padding-top: 60px;
+}
+
+#first div h2{
+  font-size: 20px;
+}
+
+#first div h1{
+  font-size: 50px;
+} 
+
+#first div a{
+  /*border: 1px solid #fff;*/
+  background-color: #2ECC71;
+  padding: 15px;
+  color: #fff;
+  font-size: 15px;
+}
+
+#second{
+  background-color: #F17C72;
+  text-align: center;
+  color: #fff;
+}
+
+#second h2{
+  display: inline-block;
+  margin-top: 75px;
+  font-size: 35px;
+}
+
+#second h4{
+  text-transform: none;
+}
+
+.services img{
+  width: 200px;
+  height: 200px;
+  padding-top: 50px;
+
+}
+
+.services{
+ display: inline-block;
+ padding-right: 80px;
+ padding-left: 80px;
+
+}
+
+/*.services h5, h6{
+}*/
+
+.services h6{
+  text-transform: none;
+}
+
+#third{
+  background-color: #fff;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+#third div h2{
+  font-size: 35px;
+}
+
+#third div h4{
+  text-transform: none;
+}
+
+#third div img{
+  width: 70%;
+}
+
+.images{
+  width: 33%;
+  display: inline-block;
+  padding-top: 30px;
+}
+
+footer{
+  text-transform: none;
+  text-align: center;
+  background-color: #373B47;
+  padding: 7px;
+  
+}
+
+footer p {
+  color: #fff;
+  font-size: 15px;
+
+}
+
 
